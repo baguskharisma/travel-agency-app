@@ -4,10 +4,10 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                inter: ["Inter var", ...defaultTheme.fontFamily.sans],
+                inter: ["InterVariable", ...defaultTheme.fontFamily.sans],
                 montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
                 "trade-gothic": [
-                    '"Trade Gothic LT"',
+                    "TradeGothic LT",
                     ...defaultTheme.fontFamily.sans,
                 ],
             },
