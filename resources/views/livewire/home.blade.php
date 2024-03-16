@@ -6,7 +6,7 @@
                     <path
                         d="M8.747 19.75H7.5a.75.75 0 0 1-.683-1.06l3.021-6.667-4.537-.101-1.655 2.005c-.315.396-.567.573-1.209.573h-.84a.828.828 0 0 1-.689-.33c-.112-.151-.221-.406-.114-.77l.929-3.328a.857.857 0 0 1 .024-.074V9.99a.695.695 0 0 1-.024-.075l-.93-3.35c-.101-.356.009-.605.12-.752A.789.789 0 0 1 1.55 5.5h.887c.48 0 .945.215 1.219.563l1.62 1.97 4.562-.067-3.02-6.656A.75.75 0 0 1 7.5.25h1.26a1.172 1.172 0 0 1 .908.46l5.862 7.124 2.708-.07c.198-.012.747-.015.874-.015 2.59.001 4.138.842 4.138 2.251 0 .443-.178 1.266-1.363 1.789-.7.31-1.634.466-2.776.466-.125 0-.673-.004-.874-.015l-2.708-.072-5.876 7.125a1.174 1.174 0 0 1-.906.457Z" />
                 </svg>
-                <a href="#" class="text-white text-md font-montserrat font-bold">Find
+                <a href="#" class="text-white text-md font-montserrat font-semibold">Find
                     Flight</a>
             </div>
             <div class="h-24 w-32 border-b-4 border-transparent flex items-center justify-center">
@@ -15,7 +15,7 @@
                     <path
                         d="M19.25 7.814a3.724 3.724 0 0 0-1.5-.314H4.25A3.754 3.754 0 0 0 .5 11.25v5.25a.75.75 0 1 0 1.5 0v-.375a.38.38 0 0 1 .375-.375h17.25a.38.38 0 0 1 .375.375v.375a.75.75 0 1 0 1.5 0v-5.25a3.754 3.754 0 0 0-2.25-3.436ZM16.625.75H5.375A2.625 2.625 0 0 0 2.75 3.375V6.75a.187.187 0 0 0 .24.18c.409-.12.833-.18 1.26-.18h.198a.188.188 0 0 0 .188-.166A1.5 1.5 0 0 1 6.125 5.25H8.75a1.5 1.5 0 0 1 1.49 1.334.188.188 0 0 0 .188.166h1.147a.187.187 0 0 0 .187-.166A1.5 1.5 0 0 1 13.25 5.25h2.625a1.5 1.5 0 0 1 1.49 1.334.188.188 0 0 0 .188.166h.197c.427 0 .851.06 1.26.18a.188.188 0 0 0 .24-.18V3.375A2.625 2.625 0 0 0 16.625.75Z" />
                 </svg>
-                <a href="#" class="text-white text-md font-montserrat font-bold">Find Stays</a>
+                <a href="#" class="text-white text-md font-montserrat font-semibold">Find Stays</a>
             </div>
         </div>
         <svg class="w-28 h-9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,11 +39,11 @@
 
         <div class="flex items-center">
             <div class="h-24 w-32 border-b-4 border-transparent mr-4 flex items-center justify-center">
-                <a href="#" class="text-white text-md font-montserrat font-bold">Login</a>
+                <a href="#" class="text-white text-md font-montserrat font-semibold">Login</a>
             </div>
             <div class="h-24 w-32 flex items-center justify-center">
                 <a href="#"
-                    class="bg-white text-blackish-green text-md font-montserrat font-bold px-4 py-2 rounded-lg">Sign
+                    class="bg-white text-blackish-green text-md font-montserrat font-semibold px-4 py-2 rounded-lg">Sign
                     Up</a>
             </div>
         </div>
@@ -51,14 +51,14 @@
 
     <section
         class="w-95 mx-auto bg-center bg-cover bg-no-repeat bg-[url('/storage/app/public/img/jumbotron-home.png')] -mt-[60px] rounded-3xl">
-        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-            <p class="mb-8 text-lg font-trade-gothic font-bold text-white lg:text-5xl sm:px-16 lg:px-48"> Helping
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-40">
+            <p class="mb-4 text-lg font-trade-gothic font-bold text-white lg:text-5xl sm:px-16 lg:px-48"> Helping
                 Others
             </p>
             <h1
-                class="mb-4 text-4xl font-trade-gothic font-bold tracking-tight leading-none text-white md:text-7xl lg:text-6xl">
+                class="mb-4 text-4xl font-bodoni font-medium tracking-tight leading-none text-white md:text-7xl lg:text-7xl">
                 LIVE & TRAVEL</h1>
-            <p class="mb-8 text-lg font-montserrat font-semibold text-white lg:text-xl sm:px-16 lg:px-48">Special
+            <p class="text-lg font-montserrat font-semibold text-white lg:text-xl sm:px-16 lg:px-48">Special
                 offers to suit your
                 plan
             </p>

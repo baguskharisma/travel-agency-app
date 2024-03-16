@@ -7,9 +7,10 @@ module.exports = {
                 inter: ["InterVariable", ...defaultTheme.fontFamily.sans],
                 montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
                 "trade-gothic": [
-                    "TradeGothic LT",
+                    "TradeGothic",
                     ...defaultTheme.fontFamily.sans,
                 ],
+                bodoni: ["Bodoni", ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 primary: "#FAFBFC",

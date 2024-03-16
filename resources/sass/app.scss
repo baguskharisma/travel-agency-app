@@ -56,6 +56,18 @@ select:invalid {
     display: none;
 }
 
+@layer base {
+    @font-face {
+        font-family: "Bodoni";
+        src: url("/public/fonts/Bodoni\ Std\ Book.otf");
+    }
+
+    @font-face {
+        font-family: "TradeGothic";
+        src: url("/public/fonts/Trade\ Gothic\ LT\ Std\ Extended.otf");
+    }
+}
+
 body {
     background-color: #fafbfc;
 }
