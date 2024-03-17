@@ -10,5 +10,5 @@
         {{ $slot }}
     @endisset
 
-    <livewire:footer />
+    <!-- <livewire:footer /> -->
 @endsection
