@@ -10,7 +10,6 @@ module.exports = {
                     "TradeGothic",
                     ...defaultTheme.fontFamily.sans,
                 ],
-                bodoni: ["Bodoni", ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 primary: "#FAFBFC",

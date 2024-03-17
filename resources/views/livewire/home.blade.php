@@ -56,7 +56,7 @@
                 Others
             </p>
             <h1
-                class="mb-4 text-4xl font-bodoni font-medium tracking-tight leading-none text-white md:text-7xl lg:text-7xl">
+                class="mb-4 text-4xl font-trade-gothic font-bold tracking-tight leading-none text-white md:text-7xl lg:text-7xl">
                 LIVE & TRAVEL</h1>
             <p class="text-lg font-montserrat font-semibold text-white lg:text-xl sm:px-16 lg:px-48">Special
                 offers to suit your
