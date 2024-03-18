@@ -65,49 +65,90 @@
         </div>
     </section>
 
-    <section class="container bg-white shadow-lg mx-auto py-4 px-8 rounded-2xl -mt-[10%]">
-        <div class="flex items-center mb-12">
-            <div class="h-24 border-b-4 border-mint-green flex items-center justify-center">
-                <svg class="mr-2" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.747 21.75H7.5a.75.75 0 0 1-.683-1.06l3.021-6.667-4.537-.101-1.655 2.005c-.315.396-.567.573-1.209.573h-.84a.828.828 0 0 1-.689-.33c-.112-.151-.221-.406-.114-.77l.929-3.328a.851.851 0 0 1 .024-.074v-.007a.69.69 0 0 1-.024-.075l-.93-3.35c-.101-.356.009-.605.12-.752A.789.789 0 0 1 1.55 7.5h.887c.48 0 .945.215 1.219.563l1.62 1.97 4.562-.067-3.02-6.656A.75.75 0 0 1 7.5 2.25h1.26a1.172 1.172 0 0 1 .908.46l5.862 7.124 2.708-.07c.198-.012.747-.015.874-.015 2.59.001 4.138.842 4.138 2.251 0 .443-.178 1.266-1.363 1.789-.7.31-1.634.466-2.776.466-.125 0-.673-.004-.874-.015l-2.708-.072-5.876 7.125a1.174 1.174 0 0 1-.906.457Z" fill="#000"/></svg>
+    <section class="w-[85%] h-[280px] bg-white shadow-lg mx-auto px-8 rounded-2xl -mt-[140px]">
+        <div class="flex items-center mb-4">
+            <div class="h-16 border-b-4 border-mint-green flex items-center justify-center">
+                <svg class="mr-2" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.747 21.75H7.5a.75.75 0 0 1-.683-1.06l3.021-6.667-4.537-.101-1.655 2.005c-.315.396-.567.573-1.209.573h-.84a.828.828 0 0 1-.689-.33c-.112-.151-.221-.406-.114-.77l.929-3.328a.851.851 0 0 1 .024-.074v-.007a.69.69 0 0 1-.024-.075l-.93-3.35c-.101-.356.009-.605.12-.752A.789.789 0 0 1 1.55 7.5h.887c.48 0 .945.215 1.219.563l1.62 1.97 4.562-.067-3.02-6.656A.75.75 0 0 1 7.5 2.25h1.26a1.172 1.172 0 0 1 .908.46l5.862 7.124 2.708-.07c.198-.012.747-.015.874-.015 2.59.001 4.138.842 4.138 2.251 0 .443-.178 1.266-1.363 1.789-.7.31-1.634.466-2.776.466-.125 0-.673-.004-.874-.015l-2.708-.072-5.876 7.125a1.174 1.174 0 0 1-.906.457Z"
+                        fill="#000" />
+                </svg>
                 <a href="#" class="text-md font-montserrat font-semibold">Flights</a>
             </div>
             <div class="h-12 mx-8 border border-l border-[#D7E2EE]"></div>
             <div class="h-24 border-b-4 border-transparent flex items-center justify-center">
-                <svg class="mr-2" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.25 10.814a3.724 3.724 0 0 0-1.5-.314H5.25a3.754 3.754 0 0 0-3.75 3.75v5.25a.75.75 0 1 0 1.5 0v-.375a.38.38 0 0 1 .375-.375h17.25a.38.38 0 0 1 .375.375v.375a.75.75 0 1 0 1.5 0v-5.25a3.754 3.754 0 0 0-2.25-3.436ZM17.625 3.75H6.375A2.625 2.625 0 0 0 3.75 6.375V9.75a.187.187 0 0 0 .24.18c.409-.12.833-.18 1.26-.18h.198a.188.188 0 0 0 .188-.166A1.5 1.5 0 0 1 7.125 8.25H9.75a1.5 1.5 0 0 1 1.49 1.334.188.188 0 0 0 .188.166h1.147a.187.187 0 0 0 .187-.166A1.5 1.5 0 0 1 14.25 8.25h2.625a1.5 1.5 0 0 1 1.49 1.334.188.188 0 0 0 .188.166h.197c.427 0 .851.06 1.26.18a.188.188 0 0 0 .24-.18V6.375a2.625 2.625 0 0 0-2.625-2.625Z" fill="#000"/></svg>
+                <svg class="mr-2" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20.25 10.814a3.724 3.724 0 0 0-1.5-.314H5.25a3.754 3.754 0 0 0-3.75 3.75v5.25a.75.75 0 1 0 1.5 0v-.375a.38.38 0 0 1 .375-.375h17.25a.38.38 0 0 1 .375.375v.375a.75.75 0 1 0 1.5 0v-5.25a3.754 3.754 0 0 0-2.25-3.436ZM17.625 3.75H6.375A2.625 2.625 0 0 0 3.75 6.375V9.75a.187.187 0 0 0 .24.18c.409-.12.833-.18 1.26-.18h.198a.188.188 0 0 0 .188-.166A1.5 1.5 0 0 1 7.125 8.25H9.75a1.5 1.5 0 0 1 1.49 1.334.188.188 0 0 0 .188.166h1.147a.187.187 0 0 0 .187-.166A1.5 1.5 0 0 1 14.25 8.25h2.625a1.5 1.5 0 0 1 1.49 1.334.188.188 0 0 0 .188.166h.197c.427 0 .851.06 1.26.18a.188.188 0 0 0 .24-.18V6.375a2.625 2.625 0 0 0-2.625-2.625Z"
+                        fill="#000" />
+                </svg>
                 <a href="#" class="text-md font-montserrat font-semibold">Stays</a>
             </div>
         </div>
-        <form class="flex items-center space-x-6 mb-12" action="">
+        <form class="flex items-center space-x-6 mb-6" action="">
             <div class="flex relative flex-col w-[30%] mb-4">
-                <label for="name" class="-mb-3 z-10 bg-white w-fit ml-4 font-montserrat text-blackish-green text-sm">From - To</label>
-                <input type="text" class="px-3 py-4 border-fade-gray rounded sm:w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base" placeholder="Jakarta - Bali">
+                <label for="name"
+                    class="-mb-3 z-10 bg-white w-fit ml-4 font-montserrat text-blackish-green text-sm">From - To</label>
+                <input type="text"
+                    class="px-3 py-4 border-fade-gray rounded sm:w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base"
+                    placeholder="Jakarta - Bali">
                 <div class="absolute inset-y-0 right-0 mr-4 mt-2 flex items-center">
-                    <svg width="18" height="22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.25 1.25 16.5 6.5l-5.25 5.25m4.447-5.25H1.5m5.25 14.25L1.5 15.5l5.25-5.25M2.344 15.5H16.5" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <svg width="18" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.25 1.25 16.5 6.5l-5.25 5.25m4.447-5.25H1.5m5.25 14.25L1.5 15.5l5.25-5.25M2.344 15.5H16.5"
+                            stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
                 </div>
             </div>
             <div class="flex relative flex-col w-[10%] mb-4">
-                <label for="name" class="-mb-3 z-10 bg-white w-fit ml-4 font-montserrat text-blackish-green text-sm">Trip</label>
-                <input type="text" class="px-3 py-4 border-fade-gray rounded w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base" placeholder="Return">
+                <label for="name"
+                    class="-mb-3 z-10 bg-white w-fit ml-4 font-montserrat text-blackish-green text-sm">Trip</label>
+                <input type="text"
+                    class="px-3 py-4 border-fade-gray rounded w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base"
+                    placeholder="Return">
                 <div class="absolute inset-y-0 right-0 mr-4 mt-2 flex items-center">
-                    <svg width="16" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.25 1 8 7.75 14.75 1" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <svg width="16" height="9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.25 1 8 7.75 14.75 1" stroke="#000" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
                 </div>
             </div>
             <div class="flex flex-col w-[30%] mb-4">
-                <label for="name" class="-mb-3 z-10 bg-white w-fit ml-4 font-montserrat text-blackish-green text-sm">Depart - Return</label>
-                <input type="text" class="px-3 py-4 border-fade-gray rounded-md w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base" placeholder="07 Nov 22 - 13 Nov 22">
+                <label for="name"
+                    class="-mb-3 z-10 bg-white w-fit ml-4 font-montserrat text-blackish-green text-sm">Depart -
+                    Return</label>
+                <input type="text"
+                    class="px-3 py-4 border-fade-gray rounded-md w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base"
+                    placeholder="07 Nov 22 - 13 Nov 22">
             </div>
             <div class="flex flex-col w-[30%] mb-4">
-                <label for="name" class="-mb-3 z-10 bg-white w-fit ml-4 font-montserrat text-blackish-green text-sm">Passenger - class</label>
-                <input type="text" class="px-3 py-4 border-fade-gray rounded-md w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base" placeholder="1 Passenger, Economy">
+                <label for="name"
+                    class="-mb-3 z-10 bg-white w-fit ml-4 font-montserrat text-blackish-green text-sm">Passenger -
+                    class</label>
+                <input type="text"
+                    class="px-3 py-4 border-fade-gray rounded-md w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base"
+                    placeholder="1 Passenger, Economy">
             </div>
         </form>
         <div>
             <div class="flex mb-14 space-x-6 justify-end">
-                <button class="flex items-center justify-center px-4 py-2 font-montserrat text-blackish-green font-medium text-sm text-blackish-green rounded-md">
-                <svg class="mr-2.5" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 1.5v9-9ZM10.5 6h-9 9Z" fill="#121"/><path d="M6 1.5v9M10.5 6h-9" stroke="#121" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Add Promo Code
+                <button
+                    class="flex items-center justify-center px-4 py-2 font-montserrat text-blackish-green font-medium text-sm rounded-md">
+                    <svg class="mr-2.5" width="12" height="12" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 1.5v9-9ZM10.5 6h-9 9Z" fill="#121" />
+                        <path d="M6 1.5v9M10.5 6h-9" stroke="#121" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg> Add Promo Code
                 </button>
-                <button class="flex items-center justify-center px-4 py-2 bg-mint-green font-montserrat text-blackish-green font-medium text-sm rounded-md hover:bg-gray-500">
-                <svg class="mr-2.5" width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.469 14h.03a.77.77 0 0 0 .72-.484l-.022-.008a.746.746 0 0 1-.697.468h-.03m-.001.023v-.023m0 .023v-.023m0 .023a.735.735 0 0 1-.665-.525L5.97 9.18m2.498 4.795a.711.711 0 0 1-.637-.492.28.28 0 0 1-.006-.017v-.003L5.992 9.173M13.764.236a.727.727 0 0 1 .164.774L9.197 13.507 6.1 8.711l6.416-6.883a.243.243 0 0 0-.079-.398.244.244 0 0 0-.266.052L5.285 7.9a.476.476 0 0 1-.462.107L.534 6.174H.532L.519 6.17a.727.727 0 0 1-.036-1.365l.009-.003 12.5-4.731a.727.727 0 0 1 .772.165Zm0 0 .017-.016-.017.016ZM5.994 9.173l-.022.008m.022-.008A.477.477 0 0 1 6.1 8.71l-.138.212a.5.5 0 0 0 .009.258m.022-.008V9.17l-.022.01" fill="#000" stroke="#121" stroke-width=".047"/></svg> Show Flights
+                <button
+                    class="flex items-center justify-center px-4 py-2 bg-mint-green font-montserrat text-blackish-green font-medium text-sm rounded-md hover:bg-gray-500">
+                    <svg class="mr-2.5" width="14" height="14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.469 14h.03a.77.77 0 0 0 .72-.484l-.022-.008a.746.746 0 0 1-.697.468h-.03m-.001.023v-.023m0 .023v-.023m0 .023a.735.735 0 0 1-.665-.525L5.97 9.18m2.498 4.795a.711.711 0 0 1-.637-.492.28.28 0 0 1-.006-.017v-.003L5.992 9.173M13.764.236a.727.727 0 0 1 .164.774L9.197 13.507 6.1 8.711l6.416-6.883a.243.243 0 0 0-.079-.398.244.244 0 0 0-.266.052L5.285 7.9a.476.476 0 0 1-.462.107L.534 6.174H.532L.519 6.17a.727.727 0 0 1-.036-1.365l.009-.003 12.5-4.731a.727.727 0 0 1 .772.165Zm0 0 .017-.016-.017.016ZM5.994 9.173l-.022.008m.022-.008A.477.477 0 0 1 6.1 8.71l-.138.212a.5.5 0 0 0 .009.258m.022-.008V9.17l-.022.01"
+                            fill="#000" stroke="#121" stroke-width=".047" />
+                    </svg> Show Flights
                 </button>
             </div>
         </div>
