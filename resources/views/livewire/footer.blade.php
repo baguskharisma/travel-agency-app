@@ -1,4 +1,4 @@
-<footer class="bg-mint-green py-12 px-24 space-y-16 h-96">
+<footer class="bg-mint-green py-12 px-24 space-y-16 h-96 mt-80">
     <div class="container mx-auto -mt-48 bg-secondary rounded-3xl">
         <div class="flex justify-between items-center">
             <div class="mx-6 space-y-4">
@@ -102,7 +102,7 @@
                                 class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">France</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">France</a>
+                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Iceland</a>
                         </li>
                     </ul>
                 </div>

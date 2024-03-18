@@ -52,11 +52,11 @@
     <section
         class="w-95 mx-auto bg-center bg-cover bg-no-repeat bg-[url('/storage/app/public/img/jumbotron-home.png')] -mt-[60px] rounded-3xl">
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-            <p class="mb-4 text-lg font-trade-gothic font-bold text-white lg:text-5xl sm:px-16 lg:px-48"> Helping
+            <p class="mb-6 text-lg font-trade-gothic font-bold text-white lg:text-5xl sm:px-16 lg:px-48"> Helping
                 Others
             </p>
             <h1
-                class="mb-4 text-4xl font-trade-gothic font-bold tracking-tight leading-none text-white md:text-7xl lg:text-7xl">
+                class="mb-6 text-4xl font-trade-gothic font-bold tracking-tight leading-none text-white md:text-7xl lg:text-7xl">
                 LIVE & TRAVEL</h1>
             <p class="text-lg font-montserrat font-semibold text-white lg:text-xl sm:px-16 lg:px-48">Special
                 offers to suit your
@@ -65,7 +65,7 @@
         </div>
     </section>
 
-    <section class="w-[85%] h-[280px] bg-white shadow-lg mx-auto px-8 rounded-2xl -mt-[140px]">
+    <section class="w-85 h-72 bg-white shadow-lg mx-auto px-8 rounded-2xl -mt-36">
         <div class="flex items-center mb-4">
             <div class="h-16 border-b-4 border-mint-green flex items-center justify-center">
                 <svg class="mr-2" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -153,4 +153,303 @@
             </div>
         </div>
     </section>
+
+    <section class="w-85 mt-28 mx-auto">
+        <div class="flex items-center justify-between">
+            <span class="space-y-3">
+                <h2 class="font-montserrat font-semibold text-3xl">Plan your perfect trip</h2>
+                <p class="font-montserrat text-blackish-green">Search Flights & Places Hire to our most
+                    popular
+                    destinations</p>
+            </span>
+            <span>
+                <button
+                    class="flex items-center justify-center px-4 py-2 border border-mint-green font-montserrat text-blackish-green font-medium text-sm rounded">
+                    See more places </button>
+            </span>
+        </div>
+        <div class="grid grid-cols-3 gap-8 mt-10">
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/turkey.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">Istanbul, Turkey</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/sydney.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">Sydney, Australia</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/baku.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">Baku, Azerbaijan</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/maldives.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">Malé, Maldives</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/paris.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">Paris, France</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/new-york.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">New York, US</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/london.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">London, UK</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/tokyo.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">Tokyo, Japan</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg flex items-center space-x-4 p-4">
+                <span class="rounded-lg">
+                    <img src="{{ asset('storage/img/dubai.png') }}" alt="">
+                </span>
+                <span class="space-y-1">
+                    <p class="font-montserrat font-semibold text-base text-blackish-green">Dubai, UAE</p>
+                    <p class="font-montserrat font-medium text-blackish-green text-sm">Flights &bull; Hotels &bull;
+                        Resorts &bull;</p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-85 mt-28 mx-auto">
+        <div class="grid grid-cols-2 gap-6">
+            <div
+                class="rounded-3xl bg-[url('/storage/app/public/img/airport-image.png')] bg-center bg-no-repeat bg-fit text-center flex items-end h-550">
+                <div class="mx-auto pb-5 space-y-3">
+                    <h1 class="font-trade-gothic font-bold text-white text-4xl">Flights</h1>
+                    <p class="font-montserrat text-white text-base">Search Flights & Places Hire to our most popular
+                        <br>
+                        destinations
+                    </p>
+                    <div class="flex justify-center">
+                        <button
+                            class="flex items-center justify-center px-4 py-4 bg-mint-green font-montserrat text-blackish-green font-medium text-sm rounded hover:bg-gray-500">
+                            <svg class="mr-2.5" width="14" height="14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.469 14h.03a.77.77 0 0 0 .72-.484l-.022-.008a.746.746 0 0 1-.697.468h-.03m-.001.023v-.023m0 .023v-.023m0 .023a.735.735 0 0 1-.665-.525L5.97 9.18m2.498 4.795a.711.711 0 0 1-.637-.492.28.28 0 0 1-.006-.017v-.003L5.992 9.173M13.764.236a.727.727 0 0 1 .164.774L9.197 13.507 6.1 8.711l6.416-6.883a.243.243 0 0 0-.079-.398.244.244 0 0 0-.266.052L5.285 7.9a.476.476 0 0 1-.462.107L.534 6.174H.532L.519 6.17a.727.727 0 0 1-.036-1.365l.009-.003 12.5-4.731a.727.727 0 0 1 .772.165Zm0 0 .017-.016-.017.016ZM5.994 9.173l-.022.008m.022-.008A.477.477 0 0 1 6.1 8.71l-.138.212a.5.5 0 0 0 .009.258m.022-.008V9.17l-.022.01"
+                                    fill="#000" stroke="#121" stroke-width=".047" />
+                            </svg> Show Flights
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="rounded-3xl bg-[url('/storage/app/public/img/villa-image.png')] bg-center bg-no-repeat bg-fit text-center flex items-end h-550">
+                <div class="mx-auto pb-5 space-y-3">
+                    <h1 class="font-trade-gothic font-bold text-white text-4xl">Hotels</h1>
+                    <p class="font-montserrat text-white text-base">Search Hotels & Places Hire to our most popular
+                        <br>
+                        destinations
+                    </p>
+                    <div class="flex justify-center">
+                        <button
+                            class="flex items-center justify-center px-4 py-4 bg-mint-green font-montserrat text-blackish-green font-medium text-sm rounded hover:bg-gray-500">
+                            <svg class="mr-2.5" width="14" height="14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.469 14h.03a.77.77 0 0 0 .72-.484l-.022-.008a.746.746 0 0 1-.697.468h-.03m-.001.023v-.023m0 .023v-.023m0 .023a.735.735 0 0 1-.665-.525L5.97 9.18m2.498 4.795a.711.711 0 0 1-.637-.492.28.28 0 0 1-.006-.017v-.003L5.992 9.173M13.764.236a.727.727 0 0 1 .164.774L9.197 13.507 6.1 8.711l6.416-6.883a.243.243 0 0 0-.079-.398.244.244 0 0 0-.266.052L5.285 7.9a.476.476 0 0 1-.462.107L.534 6.174H.532L.519 6.17a.727.727 0 0 1-.036-1.365l.009-.003 12.5-4.731a.727.727 0 0 1 .772.165Zm0 0 .017-.016-.017.016ZM5.994 9.173l-.022.008m.022-.008A.477.477 0 0 1 6.1 8.71l-.138.212a.5.5 0 0 0 .009.258m.022-.008V9.17l-.022.01"
+                                    fill="#000" stroke="#121" stroke-width=".047" />
+                            </svg> Show Hotels
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="w-85 mt-28 mx-auto flex items-center justify-between">
+            <span class="space-y-3">
+                <h2 class="font-montserrat font-semibold text-3xl">Reviews</h2>
+                <p class="font-montserrat text-blackish-green">What people says about Golobe facilities</p>
+            </span>
+            <span>
+                <button
+                    class="flex items-center justify-center px-4 py-2 border border-mint-green font-montserrat text-blackish-green font-medium text-sm rounded">
+                    See All</button>
+            </span>
+        </div>
+        <div class="mt-10 ms-24 flex items-center space-x-12">
+            <div class="relative">
+                <div class="bg-mint-green bg-opacity-40 review-card rounded-lg absolute top-5 left-5">
+                </div>
+                <div class="bg-white review-card rounded-lg shadow-lg relative z-10 p-6">
+                    <p class="font-trade-gothic font-bold text-2xl text-blackish-green mb-4">"A real sense of
+                        community, nurtured"</p>
+                    <p class="font-montserrat font-normal text-sm text-blackish-green mb-2">Really appreciate the help
+                        and
+                        support from the
+                        staff during these tough times. Shoutout to Katie for...</p>
+                    <div class="flex justify-end mb-4">
+                        <a class="font-trade-gothic font-bold text-sm" href="#">View more</a>
+                    </div>
+                    <svg class="mb-5" width="377" height="24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 1.5 9h7.518l2.268-6.982a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM54.469 22.5a.75.75 0 0 1-.44-.14L48 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 37.5 9h7.518l2.268-6.982a.75.75 0 0 1 1.427 0l2.27 6.984H58.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM90.469 22.5a.75.75 0 0 1-.44-.14L84 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 73.5 9h7.518l2.269-6.982a.75.75 0 0 1 1.426 0l2.27 6.984H94.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM126.469 22.5a.749.749 0 0 1-.44-.14L120 17.988l-6.029 4.37a.748.748 0 0 1-1.15-.847l2.351-6.964-6.094-4.18a.745.745 0 0 1-.293-.839A.748.748 0 0 1 109.5 9h7.518l2.269-6.982a.745.745 0 0 1 .713-.519.75.75 0 0 1 .713.519l2.269 6.984h7.518a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.745.745 0 0 1-.101.677.754.754 0 0 1-.608.313ZM162.469 22.5a.749.749 0 0 1-.44-.14L156 17.988l-6.029 4.37a.748.748 0 0 1-1.15-.847l2.351-6.964-6.094-4.18a.745.745 0 0 1-.293-.839A.748.748 0 0 1 145.5 9h7.518l2.269-6.982a.745.745 0 0 1 .713-.519.75.75 0 0 1 .713.519l2.269 6.984h7.518a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.745.745 0 0 1-.101.677.754.754 0 0 1-.608.313Z"
+                            fill="#FFC107" />
+                    </svg>
+                    <p class="font-trade-gothic font-bold text-sm text-blackish-green mb-1">Olga</p>
+                    <p class="font-montserrat font-medium text-xs mb-3">Weave Studios - Kai Tak</p>
+                    <div class="flex items-center space-x-2 mb-10">
+                        <span>
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.805 10.041H21V10h-9v4h5.651A5.998 5.998 0 0 1 6 12a6 6 0 0 1 6-6c1.53 0 2.921.577 3.98 1.52L18.81 4.69A9.954 9.954 0 0 0 12 2C6.478 2 2 6.478 2 12c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-.67-.069-1.325-.195-1.959Z"
+                                    fill="#FFC107" />
+                                <path
+                                    d="m3.152 7.346 3.286 2.409A5.997 5.997 0 0 1 11.999 6c1.53 0 2.921.577 3.98 1.52l2.83-2.829A9.954 9.954 0 0 0 11.998 2a9.994 9.994 0 0 0-8.847 5.346Z"
+                                    fill="#FF3D00" />
+                                <path
+                                    d="M12 22c2.583 0 4.93-.988 6.705-2.596l-3.095-2.619A5.955 5.955 0 0 1 12 18a5.997 5.997 0 0 1-5.641-3.973L3.098 16.54C4.753 19.778 8.114 22 12 22Z"
+                                    fill="#4CAF50" />
+                                <path
+                                    d="M21.805 10.041H21V10h-9v4h5.651a6.02 6.02 0 0 1-2.043 2.785h.002l3.095 2.619C18.485 19.602 22 17 22 12c0-.67-.069-1.325-.195-1.959Z"
+                                    fill="#1976D2" />
+                            </svg>
+                        </span>
+                        <span class="font-trade-gothic font-bold text-xs text-blackish-green">Google</span>
+                    </div>
+                    <img class="rounded-lg" src="{{ asset('storage/img/review-1-img.png') }}" alt="">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-mint-green bg-opacity-40 review-card rounded-lg absolute top-5 left-5">
+                </div>
+                <div class="bg-white review-card rounded-lg shadow-lg relative z-10 p-6">
+                    <p class="font-trade-gothic font-bold text-2xl text-blackish-green mb-4">"The facilities are
+                        superb. Clean, slick, bright."</p>
+                    <p class="font-montserrat font-normal text-sm text-blackish-green mb-2">"A real sense of community,
+                        nurtured" Really appreciate the help and support from the staff...</p>
+                    <div class="flex justify-end mb-4">
+                        <a class="font-trade-gothic font-bold text-sm" href="#">View more</a>
+                    </div>
+                    <svg class="mb-5" width="377" height="24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 1.5 9h7.518l2.268-6.982a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM54.469 22.5a.75.75 0 0 1-.44-.14L48 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 37.5 9h7.518l2.268-6.982a.75.75 0 0 1 1.427 0l2.27 6.984H58.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM90.469 22.5a.75.75 0 0 1-.44-.14L84 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 73.5 9h7.518l2.269-6.982a.75.75 0 0 1 1.426 0l2.27 6.984H94.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM126.469 22.5a.749.749 0 0 1-.44-.14L120 17.988l-6.029 4.37a.748.748 0 0 1-1.15-.847l2.351-6.964-6.094-4.18a.745.745 0 0 1-.293-.839A.748.748 0 0 1 109.5 9h7.518l2.269-6.982a.745.745 0 0 1 .713-.519.75.75 0 0 1 .713.519l2.269 6.984h7.518a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.745.745 0 0 1-.101.677.754.754 0 0 1-.608.313ZM162.469 22.5a.749.749 0 0 1-.44-.14L156 17.988l-6.029 4.37a.748.748 0 0 1-1.15-.847l2.351-6.964-6.094-4.18a.745.745 0 0 1-.293-.839A.748.748 0 0 1 145.5 9h7.518l2.269-6.982a.745.745 0 0 1 .713-.519.75.75 0 0 1 .713.519l2.269 6.984h7.518a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.745.745 0 0 1-.101.677.754.754 0 0 1-.608.313Z"
+                            fill="#FFC107" />
+                    </svg>
+                    <p class="font-trade-gothic font-bold text-sm text-blackish-green mb-1">Thomas</p>
+                    <p class="font-montserrat font-medium text-xs mb-3">Weave Studios - Olympic</p>
+                    <div class="flex items-center space-x-2 mb-10">
+                        <span>
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.805 10.041H21V10h-9v4h5.651A5.998 5.998 0 0 1 6 12a6 6 0 0 1 6-6c1.53 0 2.921.577 3.98 1.52L18.81 4.69A9.954 9.954 0 0 0 12 2C6.478 2 2 6.478 2 12c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-.67-.069-1.325-.195-1.959Z"
+                                    fill="#FFC107" />
+                                <path
+                                    d="m3.152 7.346 3.286 2.409A5.997 5.997 0 0 1 11.999 6c1.53 0 2.921.577 3.98 1.52l2.83-2.829A9.954 9.954 0 0 0 11.998 2a9.994 9.994 0 0 0-8.847 5.346Z"
+                                    fill="#FF3D00" />
+                                <path
+                                    d="M12 22c2.583 0 4.93-.988 6.705-2.596l-3.095-2.619A5.955 5.955 0 0 1 12 18a5.997 5.997 0 0 1-5.641-3.973L3.098 16.54C4.753 19.778 8.114 22 12 22Z"
+                                    fill="#4CAF50" />
+                                <path
+                                    d="M21.805 10.041H21V10h-9v4h5.651a6.02 6.02 0 0 1-2.043 2.785h.002l3.095 2.619C18.485 19.602 22 17 22 12c0-.67-.069-1.325-.195-1.959Z"
+                                    fill="#1976D2" />
+                            </svg>
+                        </span>
+                        <span class="font-trade-gothic font-bold text-xs text-blackish-green">Google</span>
+                    </div>
+                    <img class="rounded-lg" src="{{ asset('storage/img/review-2-img.png') }}" alt="">
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-mint-green bg-opacity-40 review-card rounded-lg absolute top-5 left-5">
+                </div>
+                <div class="bg-white review-card rounded-lg shadow-lg relative z-10 p-6">
+                    <p class="font-trade-gothic font-bold text-2xl text-blackish-green mb-4">"A real sense of
+                        community, nurtured"</p>
+                    <p class="font-montserrat font-normal text-sm text-blackish-green mb-2">Really appreciate the help
+                        and
+                        support from the
+                        staff during these tough times. Shoutout to Katie for...</p>
+                    <div class="flex justify-end mb-4">
+                        <a class="font-trade-gothic font-bold text-sm" href="#">View more</a>
+                    </div>
+                    <svg class="mb-5" width="377" height="24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.469 22.5a.75.75 0 0 1-.44-.14L12 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 1.5 9h7.518l2.268-6.982a.75.75 0 0 1 1.427 0l2.27 6.984H22.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM54.469 22.5a.75.75 0 0 1-.44-.14L48 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 37.5 9h7.518l2.268-6.982a.75.75 0 0 1 1.427 0l2.27 6.984H58.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM90.469 22.5a.75.75 0 0 1-.44-.14L84 17.988l-6.029 4.37a.75.75 0 0 1-1.15-.847l2.35-6.964-6.093-4.18A.75.75 0 0 1 73.5 9h7.518l2.269-6.982a.75.75 0 0 1 1.426 0l2.27 6.984H94.5a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.751.751 0 0 1-.71.99ZM126.469 22.5a.749.749 0 0 1-.44-.14L120 17.988l-6.029 4.37a.748.748 0 0 1-1.15-.847l2.351-6.964-6.094-4.18a.745.745 0 0 1-.293-.839A.748.748 0 0 1 109.5 9h7.518l2.269-6.982a.745.745 0 0 1 .713-.519.75.75 0 0 1 .713.519l2.269 6.984h7.518a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.745.745 0 0 1-.101.677.754.754 0 0 1-.608.313ZM162.469 22.5a.749.749 0 0 1-.44-.14L156 17.988l-6.029 4.37a.748.748 0 0 1-1.15-.847l2.351-6.964-6.094-4.18a.745.745 0 0 1-.293-.839A.748.748 0 0 1 145.5 9h7.518l2.269-6.982a.745.745 0 0 1 .713-.519.75.75 0 0 1 .713.519l2.269 6.984h7.518a.75.75 0 0 1 .424 1.37l-6.096 4.176 2.35 6.962a.745.745 0 0 1-.101.677.754.754 0 0 1-.608.313Z"
+                            fill="#FFC107" />
+                    </svg>
+                    <p class="font-trade-gothic font-bold text-sm text-blackish-green mb-1">Eliot</p>
+                    <p class="font-montserrat font-medium text-xs mb-3">Weave Studios - Kai Tak</p>
+                    <div class="flex items-center space-x-2 mb-10">
+                        <span>
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.805 10.041H21V10h-9v4h5.651A5.998 5.998 0 0 1 6 12a6 6 0 0 1 6-6c1.53 0 2.921.577 3.98 1.52L18.81 4.69A9.954 9.954 0 0 0 12 2C6.478 2 2 6.478 2 12c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-.67-.069-1.325-.195-1.959Z"
+                                    fill="#FFC107" />
+                                <path
+                                    d="m3.152 7.346 3.286 2.409A5.997 5.997 0 0 1 11.999 6c1.53 0 2.921.577 3.98 1.52l2.83-2.829A9.954 9.954 0 0 0 11.998 2a9.994 9.994 0 0 0-8.847 5.346Z"
+                                    fill="#FF3D00" />
+                                <path
+                                    d="M12 22c2.583 0 4.93-.988 6.705-2.596l-3.095-2.619A5.955 5.955 0 0 1 12 18a5.997 5.997 0 0 1-5.641-3.973L3.098 16.54C4.753 19.778 8.114 22 12 22Z"
+                                    fill="#4CAF50" />
+                                <path
+                                    d="M21.805 10.041H21V10h-9v4h5.651a6.02 6.02 0 0 1-2.043 2.785h.002l3.095 2.619C18.485 19.602 22 17 22 12c0-.67-.069-1.325-.195-1.959Z"
+                                    fill="#1976D2" />
+                            </svg>
+                        </span>
+                        <span class="font-trade-gothic font-bold text-xs text-blackish-green">Google</span>
+                    </div>
+                    <img class="rounded-lg" src="{{ asset('storage/img/review-3-img.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
 </div>
