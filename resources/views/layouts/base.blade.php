@@ -28,7 +28,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 
-<body class="overflow-x-hidden">
+<body>
     @yield('body')
 </body>
 

@@ -3,6 +3,8 @@
 @section('title', 'Home')
 
 @section('body')
+    <livewire:navbar-home />
+
     @yield('content')
 
 
