@@ -13,4 +13,5 @@
     @endisset
 
     <livewire:footer />
+    <livewire:navbar-mobile />
 @endsection
