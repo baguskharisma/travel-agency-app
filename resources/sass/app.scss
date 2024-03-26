@@ -58,11 +58,6 @@ select:invalid {
 
 @layer base {
     @font-face {
-        font-family: "Bodoni";
-        src: url("/public/fonts/Bodoni\ Std\ Book.otf");
-    }
-
-    @font-face {
         font-family: "TradeGothic";
         src: url("/public/fonts/Trade\ Gothic\ LT\ Std\ Extended.otf");
     }
@@ -80,8 +75,8 @@ body {
     width: 85%;
 }
 
-.h-550 {
-    height: 550px;
+.h-300 {
+    height: 300px;
 }
 
 .review-card {

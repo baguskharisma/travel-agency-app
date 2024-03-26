@@ -1,22 +1,21 @@
-<div>
+<div class="mt-20 md:mt-0">
     <section
         class="w-95 mx-auto bg-center bg-cover bg-no-repeat bg-[url('/storage/app/public/img/jumbotron-home.png')] -mt-[60px] rounded-3xl">
-        <div class="max-w-screen-xl px-4 py-24 mx-auto text-center lg:py-56">
-            <p class="mb-6 text-lg font-bold text-white font-trade-gothic lg:text-5xl sm:px-16 lg:px-48"> Helping
+        <div class="max-w-screen-xl px-4 py-12 mx-auto text-center md:py-56">
+            <p class="mb-6 text-lg font-bold text-white font-trade-gothic md:text-5xl"> Helping
                 Others
             </p>
-            <h1
-                class="mb-6 text-4xl font-bold leading-none tracking-tight text-white font-trade-gothic md:text-7xl lg:text-7xl">
+            <h1 class="mb-6 text-4xl font-bold leading-none tracking-tight text-white font-trade-gothic md:text-7xl">
                 LIVE & TRAVEL</h1>
-            <p class="text-lg font-semibold text-white font-montserrat lg:text-xl sm:px-16 lg:px-48">Special
+            <p class="text-lg font-semibold text-white font-montserrat md:text-xl">Special
                 offers to suit your
                 plan
             </p>
         </div>
     </section>
 
-    <section class="px-8 mx-auto bg-white shadow-lg w-85 h-72 rounded-2xl -mt-36">
-        <div class="flex items-center mb-4">
+    <section class="h-full px-4 pb-8 mx-auto bg-white shadow-lg md:px-8 w-85 rounded-2xl mt-14 md:-mt-36">
+        <div class="flex items-center justify-center mb-4 md:justify-start">
             <div class="flex items-center justify-center h-16 border-b-4 border-mint-green">
                 <svg class="mr-2" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -35,9 +34,9 @@
                 <a href="#" class="font-semibold text-md font-montserrat">Stays</a>
             </div>
         </div>
-        <form class="flex items-center mb-6 space-x-6" action="">
-            <div class="flex relative flex-col w-[30%] mb-4">
-                <label for="name"
+        <form class="grid items-center grid-cols-1 mb-6 md:flex md:space-x-6" action="">
+            <div class="flex relative flex-col w-full md:w-[30%] mb-4">
+                <label for="destination"
                     class="z-10 ml-4 -mb-3 text-sm bg-white w-fit font-montserrat text-blackish-green">From - To</label>
                 <input type="text"
                     class="px-3 py-4 rounded border-fade-gray sm:w-full placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base"
@@ -50,7 +49,7 @@
                     </svg>
                 </div>
             </div>
-            <div class="flex relative flex-col w-[10%] mb-4">
+            <div class="flex relative flex-col w-full md:w-[10%] mb-4">
                 <label for="name"
                     class="z-10 ml-4 -mb-3 text-sm bg-white w-fit font-montserrat text-blackish-green">Trip</label>
                 <input type="text"
@@ -63,7 +62,7 @@
                     </svg>
                 </div>
             </div>
-            <div class="flex flex-col w-[30%] mb-4">
+            <div class="flex flex-col w-full md:w-[30%] mb-4">
                 <label for="name"
                     class="z-10 ml-4 -mb-3 text-sm bg-white w-fit font-montserrat text-blackish-green">Depart -
                     Return</label>
@@ -71,7 +70,7 @@
                     class="w-full px-3 py-4 rounded-md border-fade-gray placeholder:font-montserrat placeholder:text-fade-black placeholder:text-base"
                     placeholder="07 Nov 22 - 13 Nov 22">
             </div>
-            <div class="flex flex-col w-[30%] mb-4">
+            <div class="flex flex-col w-full md:w-[30%] mb-4">
                 <label for="name"
                     class="z-10 ml-4 -mb-3 text-sm bg-white w-fit font-montserrat text-blackish-green">Passenger -
                     class</label>
@@ -80,149 +79,194 @@
                     placeholder="1 Passenger, Economy">
             </div>
         </form>
-        <div>
-            <div class="flex justify-end space-x-6 mb-14">
-                <button
-                    class="flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md font-montserrat text-blackish-green">
-                    <svg class="mr-2.5" width="12" height="12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6 1.5v9-9ZM10.5 6h-9 9Z" fill="#121" />
-                        <path d="M6 1.5v9M10.5 6h-9" stroke="#121" stroke-width="1.5" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg> Add Promo Code
-                </button>
-                <button
-                    class="flex items-center justify-center px-4 py-2 text-sm font-medium rounded-md bg-mint-green font-montserrat text-blackish-green hover:bg-gray-500">
-                    <svg class="mr-2.5" width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M8.469 14h.03a.77.77 0 0 0 .72-.484l-.022-.008a.746.746 0 0 1-.697.468h-.03m-.001.023v-.023m0 .023v-.023m0 .023a.735.735 0 0 1-.665-.525L5.97 9.18m2.498 4.795a.711.711 0 0 1-.637-.492.28.28 0 0 1-.006-.017v-.003L5.992 9.173M13.764.236a.727.727 0 0 1 .164.774L9.197 13.507 6.1 8.711l6.416-6.883a.243.243 0 0 0-.079-.398.244.244 0 0 0-.266.052L5.285 7.9a.476.476 0 0 1-.462.107L.534 6.174H.532L.519 6.17a.727.727 0 0 1-.036-1.365l.009-.003 12.5-4.731a.727.727 0 0 1 .772.165Zm0 0 .017-.016-.017.016ZM5.994 9.173l-.022.008m.022-.008A.477.477 0 0 1 6.1 8.71l-.138.212a.5.5 0 0 0 .009.258m.022-.008V9.17l-.022.01"
-                            fill="#000" stroke="#121" stroke-width=".047" />
-                    </svg> Show Flights
-                </button>
-            </div>
+        <div class="flex justify-end space-x-6">
+            <button
+                class="flex items-center justify-center px-4 py-2 text-xs font-medium rounded-md md:text-sm font-montserrat text-blackish-green">
+                <svg class="mr-2.5" width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 1.5v9-9ZM10.5 6h-9 9Z" fill="#121" />
+                    <path d="M6 1.5v9M10.5 6h-9" stroke="#121" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>Add Promo Code
+            </button>
+            <button
+                class="flex items-center justify-center px-4 py-2 text-xs font-medium rounded-md md:text-sm bg-mint-green font-montserrat text-blackish-green hover:bg-gray-500">
+                <svg class="mr-2.5" width="20" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.469 14h.03a.77.77 0 0 0 .72-.484l-.022-.008a.746.746 0 0 1-.697.468h-.03m-.001.023v-.023m0 .023v-.023m0 .023a.735.735 0 0 1-.665-.525L5.97 9.18m2.498 4.795a.711.711 0 0 1-.637-.492.28.28 0 0 1-.006-.017v-.003L5.992 9.173M13.764.236a.727.727 0 0 1 .164.774L9.197 13.507 6.1 8.711l6.416-6.883a.243.243 0 0 0-.079-.398.244.244 0 0 0-.266.052L5.285 7.9a.476.476 0 0 1-.462.107L.534 6.174H.532L.519 6.17a.727.727 0 0 1-.036-1.365l.009-.003 12.5-4.731a.727.727 0 0 1 .772.165Zm0 0 .017-.016-.017.016ZM5.994 9.173l-.022.008m.022-.008A.477.477 0 0 1 6.1 8.71l-.138.212a.5.5 0 0 0 .009.258m.022-.008V9.17l-.022.01"
+                        fill="#000" stroke="#121" stroke-width=".047" />
+                </svg> Show Flights
+            </button>
         </div>
     </section>
 
-    <section class="mx-auto w-85 mt-28">
-        <div class="flex items-center justify-between">
+    <section class="mx-auto w-85 mt-14 md:mt-28">
+        <div class="grid grid-cols-1 text-center md:text-start md:items-center md:justify-between md:flex">
             <span class="space-y-3">
-                <h2 class="text-3xl font-semibold font-montserrat">Plan your perfect trip</h2>
-                <p class="font-montserrat text-blackish-green">Search Flights & Places Hire to our most
+                <h2 class="text-xl font-semibold md:text-3xl font-montserrat">Plan your perfect trip</h2>
+                <p class="text-xs md:text-md font-montserrat text-blackish-green">Search Flights & Places Hire to our
+                    most
                     popular
                     destinations</p>
             </span>
             <span>
                 <button
-                    class="flex items-center justify-center px-4 py-2 text-sm font-medium border rounded border-mint-green font-montserrat text-blackish-green">
+                    class="flex items-center justify-center px-4 py-2 mx-auto mt-4 text-xs font-medium border rounded md:mt-0 md:text-sm border-mint-green font-montserrat text-blackish-green">
                     See more places </button>
             </span>
         </div>
-        <div class="grid grid-cols-3 gap-8 mt-10">
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+        <div class="grid grid-cols-2 gap-4 mt-10 md:gap-8 md:grid-cols-3">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/turkey.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/turkey.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">Istanbul, Turkey</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        Istanbul, Turkey
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/sydney.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/sydney.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">Sydney, Australia</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        Sydney, Australia
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/baku.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/baku.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">Baku, Azerbaijan</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        Baku, Azerbaijan
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/maldives.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/maldives.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">Malé, Maldives</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        Malé, Maldives
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/paris.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/paris.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">Paris, France</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        Paris, France
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/new-york.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/new-york.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">New York, US</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        New York, US
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/london.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/london.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">London, UK</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        London, UK
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/tokyo.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/tokyo.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">Tokyo, Japan</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        Tokyo, Japan
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
-            <div class="flex items-center p-4 space-x-4 bg-white shadow-lg rounded-2xl">
+            <div
+                class="grid grid-cols-1 p-2 bg-white shadow-lg md:p-4 md:space-x-4 md:flex md:items-center rounded-2xl">
                 <span class="rounded-lg">
-                    <img src="{{ asset('storage/img/dubai.png') }}" alt="">
+                    <img class="w-full" src="{{ asset('storage/img/dubai.png') }}" alt="">
                 </span>
-                <span class="space-y-1">
-                    <p class="text-base font-semibold font-montserrat text-blackish-green">Dubai, UAE</p>
-                    <p class="text-sm font-medium font-montserrat text-blackish-green">Flights &bull; Hotels &bull;
+                <span class="mt-2 space-y-1 md:mt-0">
+                    <p class="text-sm font-medium md:font-semibold md:text-base font-montserrat text-blackish-green">
+                        Dubai, UAE
+                    </p>
+                    <p class="text-xs font-normal md:font-medium md:text-sm font-montserrat text-blackish-green">
+                        Flights &bull; Hotels
+                        &bull;
                         Resorts &bull;</p>
                 </span>
             </div>
         </div>
     </section>
 
-    <section class="mx-auto w-85 mt-28">
-        <div class="grid grid-cols-2 gap-6">
+    <section class="mx-auto w-85 mt-14 md:mt-28">
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
             <div
-                class="rounded-3xl bg-[url('/storage/app/public/img/airport-image.png')] bg-center bg-no-repeat bg-fit text-center flex items-end h-550">
+                class="rounded-3xl bg-[url('/storage/app/public/img/airport-image.png')] bg-center bg-no-repeat bg-fit text-center flex items-end h-300 md:h-[550px]">
                 <div class="pb-5 mx-auto space-y-3">
-                    <h1 class="text-4xl font-bold text-white font-trade-gothic">Flights</h1>
-                    <p class="text-base text-white font-montserrat">Search Flights & Places Hire to our most popular
-                        <br>
+                    <h1 class="text-3xl font-semibold text-white md:text-4xl md:font-bold font-trade-gothic">Flights
+                    </h1>
+                    <p class="text-sm text-white md:text-base font-montserrat">Search Flights & Places Hire to our most
+                        popular
                         destinations
                     </p>
                     <div class="flex justify-center">
                         <button
-                            class="flex items-center justify-center px-4 py-4 text-sm font-medium rounded bg-mint-green font-montserrat text-blackish-green hover:bg-gray-500">
+                            class="flex items-center justify-center px-4 py-2 text-xs rounded md:py-4 md:text-sm font-regular md:font-medium bg-mint-green font-montserrat text-blackish-green hover:bg-gray-500">
                             <svg class="mr-2.5" width="14" height="14" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -234,16 +278,17 @@
                 </div>
             </div>
             <div
-                class="rounded-3xl bg-[url('/storage/app/public/img/villa-image.png')] bg-center bg-no-repeat bg-fit text-center flex items-end h-550">
+                class="rounded-3xl bg-[url('/storage/app/public/img/villa-image.png')] bg-center bg-no-repeat bg-fit text-center flex items-end h-300 md:h-[550px]">
                 <div class="pb-5 mx-auto space-y-3">
-                    <h1 class="text-4xl font-bold text-white font-trade-gothic">Hotels</h1>
-                    <p class="text-base text-white font-montserrat">Search Hotels & Places Hire to our most popular
-                        <br>
+                    <h1 class="text-3xl font-semibold text-white md:text-4xl md:font-bold font-trade-gothic">Hotels
+                    </h1>
+                    <p class="text-sm text-white md:text-base font-montserrat">Search Hotels & Places Hire to our most
+                        popular
                         destinations
                     </p>
                     <div class="flex justify-center">
                         <button
-                            class="flex items-center justify-center px-4 py-4 text-sm font-medium rounded bg-mint-green font-montserrat text-blackish-green hover:bg-gray-500">
+                            class="flex items-center justify-center px-4 py-2 text-xs rounded md:py-4 md:text-sm font-regular md:font-medium bg-mint-green font-montserrat text-blackish-green hover:bg-gray-500">
                             <svg class="mr-2.5" width="14" height="14" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -258,22 +303,27 @@
     </section>
 
     <section>
-        <div class="flex items-center justify-between mx-auto w-85 mt-28">
+        <div
+            class="grid grid-cols-1 mx-auto text-center w-85 mt-14 md:mt-28 md:text-start md:items-center md:justify-between md:flex">
             <span class="space-y-3">
-                <h2 class="text-3xl font-semibold font-montserrat">Reviews</h2>
-                <p class="font-montserrat text-blackish-green">What people says about Golobe facilities</p>
+                <h2 class="text-xl font-semibold md:text-3xl font-montserrat">Plan your perfect trip</h2>
+                <p class="text-xs md:text-md font-montserrat text-blackish-green">Search Flights & Places Hire to our
+                    most
+                    popular
+                    destinations</p>
             </span>
             <span>
                 <button
-                    class="flex items-center justify-center px-4 py-2 text-sm font-medium border rounded border-mint-green font-montserrat text-blackish-green">
-                    See All</button>
+                    class="flex items-center justify-center px-4 py-2 mx-auto mt-4 text-xs font-medium border rounded md:mt-0 md:text-sm border-mint-green font-montserrat text-blackish-green">
+                    See more places </button>
             </span>
         </div>
-        <div class="flex items-center px-5 py-6 mt-4 space-x-12 overflow-hidden ms-20">
+        <div
+            class="px-5 py-6 mt-4 space-y-12 overflow-hidden md:space-y-0 md:flex md:items-center md:space-x-12 md:ms-20">
             <div class="relative">
-                <div class="absolute rounded-lg bg-mint-green bg-opacity-40 review-card top-5 left-5">
+                <div class="absolute rounded-lg bg-mint-green bg-opacity-40 md:review-card top-5 left-5">
                 </div>
-                <div class="relative z-10 p-6 bg-white rounded-lg shadow-lg review-card">
+                <div class="relative z-10 p-6 bg-white rounded-lg shadow-lg md:review-card">
                     <p class="mb-4 text-2xl font-bold font-trade-gothic text-blackish-green">"A real sense of
                         community, nurtured"</p>
                     <p class="mb-2 text-sm font-normal font-montserrat text-blackish-green">Really appreciate the help
@@ -314,9 +364,9 @@
                 </div>
             </div>
             <div class="relative">
-                <div class="absolute rounded-lg bg-mint-green bg-opacity-40 review-card top-5 left-5">
+                <div class="absolute rounded-lg bg-mint-green bg-opacity-40 md:review-card top-5 left-5">
                 </div>
-                <div class="relative z-10 p-6 bg-white rounded-lg shadow-lg review-card">
+                <div class="relative z-10 p-6 bg-white rounded-lg shadow-lg md:review-card">
                     <p class="mb-4 text-2xl font-bold font-trade-gothic text-blackish-green">"The facilities are
                         superb. Clean, slick, bright."</p>
                     <p class="mb-2 text-sm font-normal font-montserrat text-blackish-green">"A real sense of community,
@@ -355,9 +405,9 @@
                 </div>
             </div>
             <div class="relative">
-                <div class="absolute rounded-lg bg-mint-green bg-opacity-40 review-card top-5 left-5">
+                <div class="absolute rounded-lg bg-mint-green bg-opacity-40 md:review-card top-5 left-5">
                 </div>
-                <div class="relative z-10 p-6 bg-white rounded-lg shadow-lg review-card">
+                <div class="relative z-10 p-6 bg-white rounded-lg shadow-lg md:review-card">
                     <p class="mb-4 text-2xl font-bold font-trade-gothic text-blackish-green">"A real sense of
                         community, nurtured"</p>
                     <p class="mb-2 text-sm font-normal font-montserrat text-blackish-green">Really appreciate the help

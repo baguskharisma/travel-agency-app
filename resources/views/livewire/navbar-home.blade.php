@@ -1,4 +1,4 @@
-<nav class="flex items-center justify-between h-24 px-16 pt-20 mx-auto">
+<nav class="items-center justify-between hidden h-24 px-16 pt-20 mx-auto md:flex">
     <div class="flex items-center">
         <div class="flex items-center justify-center w-32 h-24 mr-4 border-b-4 border-transparent">
             <svg class="mr-2 fill-white" width="24" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">

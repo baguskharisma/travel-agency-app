@@ -1,23 +1,25 @@
-<footer class="bg-mint-green py-12 px-24 space-y-16 h-96 mt-80">
-    <div class="container mx-auto -mt-48 bg-secondary rounded-3xl">
-        <div class="flex justify-between items-center">
-            <div class="mx-6 space-y-4">
-                <h3 class="font-trade-gothic font-bold text-5xl text-blackish-green">Subscribe <br> Newsletter</h3>
+<footer class="h-full px-6 py-6 mt-40 mb-16 space-y-16 md:px-24 md:py-12 bg-mint-green md:mt-80 md:mb-0">
+    <div class="container py-4 mx-auto -mt-32 md:-mt-48 bg-secondary rounded-xl md:rounded-3xl">
+        <div class="flex items-center justify-between text-center md:text-start">
+            <div class="mx-6 space-y-3 md:space-y-4">
+                <h3 class="text-2xl font-bold md:text-5xl font-trade-gothic text-blackish-green">Subscribe <br>
+                    Newsletter</h3>
                 <div>
-                    <p class="font-trade-gothic font-bold text-xl text-blackish-green">The Travel</p>
-                    <p class="font-montserrat font-normal text-base text-blackish-green">Get inspired! Receive travel
+                    <p class="hidden text-lg font-bold font-trade-gothic text-blackish-green md:block">The Travel</p>
+                    <p class="hidden text-xs font-normal font-montserrat text-blackish-green md:block">Get inspired!
+                        Receive travel
                         discounts, tips and behind the scenes stories.</p>
                 </div>
-                <form action="#" method="POST" class="flex">
+                <form action="#" method="POST" class="block md:flex">
                     <input type="email" name="email" placeholder="Your email address"
-                        class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:border-blue-500 placeholder-fade-black placeholder:font-montserrat">
+                        class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500 placeholder:fade-black placeholder:font-montserrat placeholder:text-center placeholder:md:text-start">
                     <button type="submit"
-                        class="font-montserrat font-semibold bg-blackish-green ml-4 text-white text-sm px-6 py-2 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                        class="w-full px-6 py-2 mt-2 text-sm font-semibold text-white rounded md:w-fit md:mt-0 md:ml-4 font-montserrat bg-blackish-green hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
                         Subscribe
                     </button>
                 </form>
             </div>
-            <div class="mx-6">
+            <div class="hidden mx-6 -mb-4 md:block">
                 <svg width="400" height="305" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#a)">
                         <path
@@ -55,8 +57,8 @@
         </div>
     </div>
     <div class="container mx-auto">
-        <div class="flex flex-col md:flex-row md:justify-between">
-            <div>
+        <div class="flex flex-col text-center md:flex-row md:justify-between">
+            <div class="mx-auto md:mx-0">
                 <div class="mb-4">
                     <svg width="120" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#a)">
@@ -77,7 +79,7 @@
                         </defs>
                     </svg>
                 </div>
-                <div class="flex space-x-4 mb-4">
+                <div class="flex mb-4 space-x-4">
                     <a href="#" class="text-blackish-green hover:text-gray-900"><i
                             class="fa-brands fa-facebook"></i></a>
                     <a href="#" class="text-blackish-green hover:text-gray-900"><i
@@ -88,83 +90,83 @@
                             class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-16">
+            <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-16">
                 <div>
-                    <h4 class="text-base font-trade-gothic font-bold mb-2">Our Destinations</h4>
+                    <h4 class="mb-2 text-base font-bold font-trade-gothic">Our Destinations</h4>
                     <ul>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Canada</a>
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Canada</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Alaska</a>
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Alaska</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">France</a>
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">France</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Iceland</a>
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Iceland</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-base font-trade-gothic font-bold mb-2">Our Activites</h4>
+                    <h4 class="mb-2 text-base font-bold font-trade-gothic">Our Activites</h4>
                     <ul>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Northern
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Northern
                                 Lights</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Cruising
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Cruising
                                 & sailing</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Multi-activities</a>
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Multi-activities</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Parachuting</a>
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Parachuting</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-base font-trade-gothic font-bold mb-2">Travel Blogs</h4>
+                    <h4 class="mb-2 text-base font-bold font-trade-gothic">Travel Blogs</h4>
                     <ul>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Bali
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Bali
                                 Travel Guide</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Sri
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Sri
                                 Lanka Travel Guide</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Peru
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Peru
                                 Travel Guide</a>
                         </li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Japan
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Japan
                                 Travel Guide</a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-base font-trade-gothic font-bold mb-2">About Us</h4>
+                    <h4 class="mb-2 text-base font-bold font-trade-gothic">About Us</h4>
                     <ul>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Our
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Our
                                 Story</a></li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Our
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Our
                                 Team</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-base font-trade-gothic font-bold mb-2">Contact Us</h4>
+                    <h4 class="mb-2 text-base font-bold font-trade-gothic">Contact Us</h4>
                     <ul>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Our
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Our
                                 Email</a></li>
                         <li><a href="#"
-                                class="text-blackish-green hover:text-gray-900 font-montserrat font-normal text-sm">Work
+                                class="text-sm font-normal text-blackish-green hover:text-gray-900 font-montserrat">Work
                                 with us</a></li>
                     </ul>
                 </div>
