@@ -57,7 +57,7 @@
         </div>
     </div>
     <div class="container mx-auto">
-        <div class="flex flex-col text-center md:flex-row md:justify-between">
+        <div class="flex flex-col text-center md:text-start md:flex-row md:justify-between">
             <div class="mx-auto md:mx-0">
                 <div class="mb-4">
                     <svg width="120" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
